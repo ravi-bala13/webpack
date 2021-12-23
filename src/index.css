@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+
+.redcolor{
+    color:blue;
+    text-align: center;
+}
+#input-div{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+}
+#input{
+    border: 1px solid gray;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    
+}
+#content{
+    border: 1px solid orange;
+    width: 600px;
+    
+    margin: auto;
+    padding: 10px;
+    color: white;
+    
+}
+#notes-content{
+    overflow: scroll;
+    height: 500px;
+}
+#add{
+    display: flex;
+    margin-left: 500px;
+
+}
+.each_note{
+    margin:5px;
+    border: 1px solid paleturquoise;
+}
+#title{
+    width: 398px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid paleturquoise;
+    padding: 10px;
+    
+}
